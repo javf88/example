@@ -1,0 +1,6 @@
+cc_test(
+    name = "onlyHeaderTest",
+    srcs = ["test.c"],
+    copts = ["-Wmissing-include-dirs"],
+    deps = ["//include:onlyHeaderLib"]
+)

@@ -1,0 +1,6 @@
+cc_library(
+    name = "onlyHeaderLib",
+    hdrs = ["onlyHeader.h"],
+    includes = ["."],
+    visibility = ["//visibility:public"]
+)
